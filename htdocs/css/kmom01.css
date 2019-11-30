@@ -5,6 +5,13 @@
  * to style up the website so it is useable.
  */
 
+/* Poor-mans normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     display: none;
@@ -13,4 +20,68 @@
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
     display: none;
+}
+
+/* Container */
+
+.wrap-all {
+    background-color: #ccc;
+
+}
+
+.wrap-all a {
+    color: #008;
+}
+
+.outer-wrap {
+    width: 100%;
+}
+
+.inner-wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+.site-logo-text {
+    display: none;
+}
+
+.my-navbar {
+    list-style-type: none;
+    padding: 30px 0;
+}
+
+/* Main */
+
+.inner-wrap-main {
+    padding: 30px 0;
+}
+
+.block {
+        display: flex;
+        border: 2px solid #008;
+        overflow: auto;
+        padding: 20px 0;
+        margin: 20px 0;
+}
+
+
+/* Footer */
+
+.outer-wrap-footer {
+    background-color: #008;
+    color: white;
+}
+
+.inner-wrap-footer {
+    padding: 30px 0;
+}
+
+.region-footer>.block {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
 }
