@@ -1,3 +1,3 @@
 My me/testpage
 =============
-This is a testpage for an design course.
+This is a testpage for a design course.
